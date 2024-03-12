@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
    // Публичное поле для задания цвета куба в редакторе Unity
-    public Color newColor = Color.blue;
+    public Color newColor = Color.red;
 
     void Update()
     {
