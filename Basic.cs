@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Basic : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        // Some com
-    }
+    public GameObject obj;
 
-    // Update is called once per frame
-    void Update()
+
+    private void Start()
     {
-        
+        obj.SetActive(false); // Объект исчезает при старте. 
     }
 }
